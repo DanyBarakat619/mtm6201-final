@@ -1,1 +1,51 @@
+/* CSS VARIABLES (Bootstrap customization) */
+:root {
+--bs-primary: #0d6efd;
+--bs-secondary: #6c757d;
+--bs-body-bg: #f4f4f4;
+--bs-body-color: #212529;
+}
+
+/* GLOBAL STYLES */
+body {
+font-family: Arial, sans-serif;
+background-color: var(--bs-body-bg);
+color: var(--bs-body-color);
+}
+
+/* SECTIONS SPACING */
+section {
+padding: 60px 0;
+}
+
+/* HEADINGS */
+h1, h2 {
+font-weight: bold;
+}
+
+/* BOX STYLE (services + team) */
+.border {
+border-radius: 10px;
+background-color: white;
+}
+
+/* NAVBAR */
+.navbar {
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+footer {
+font-size: 14px;
+}
+
+/* FORM */
+form input, form textarea {
+border-radius: 5px;
+}
+
+/* IMAGE FIX */
+img {
+border-radius: 10px;
+}
 

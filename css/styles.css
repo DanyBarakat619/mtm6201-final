@@ -53,7 +53,7 @@ color: var(--primary-color);
 
 /* HERO SECTION */
 .hero-bg {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  background: linear-gradient(rgba(15,23,42,0.75), rgba(15,23,42,0.75)),
   url('https://images.unsplash.com/photo-1492724441997-5dc865305da7');
 
   background-size: cover;
@@ -65,7 +65,7 @@ color: var(--primary-color);
   margin-top: 2rem;
   text-align: center;
 }
-/* ============================= */
+
 /* SECTIONS */
 /* ============================= */
 section {

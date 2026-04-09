@@ -134,3 +134,7 @@ a {
 .map-placeholder iframe {
   border-radius: var(--radius);
 }
+
+body {
+  background: red !important;
+}

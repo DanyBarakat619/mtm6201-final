@@ -210,3 +210,27 @@ hr {
 section {
   padding: 80px 0;
 }
+
+.hero-subtext {
+  color: #ffffff !important;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+.hero-bg h1 {
+  color: #ffffff;
+}
+
+.brand-text {
+  color: #60a5fa; /* nicer blue */
+}
+
+.hero-bg h1 {
+  color: #ffffff;
+  text-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+.hero-subtext {
+  color: #e5e7eb;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}

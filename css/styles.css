@@ -187,3 +187,12 @@ hr {
   border-color: rgba(255,255,255,0.2);
   margin: 2rem 0;
 }
+
+.card-custom {
+  transition: all 0.3s ease;
+}
+
+.card-custom:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}

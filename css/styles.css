@@ -135,3 +135,14 @@ a {
   border-radius: var(--radius);
 }
 
+.section-padding {
+  padding: 80px 0;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.text-muted {
+  color: #9ca3af !important;
+}

@@ -206,3 +206,7 @@ hr {
   color: var(--primary-color);
   transition: 0.2s;
 }
+
+section {
+  padding: 80px 0;
+}

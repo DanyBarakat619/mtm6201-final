@@ -6,13 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About - Apex Digital</title>
 
-  <!-- CSS -->
-
   <link rel="stylesheet" href="css/styles.css">
 
-  <!-- Fonts + Bootstrap -->
+  <!-- Bootstrap -->
 
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
@@ -20,100 +17,105 @@
 
 <!-- NAVBAR -->
 
-<nav class="navbar navbar-expand-lg sticky-top">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">⚡ Apex Digital</a>
-    <div class="ms-auto">
-      <a class="nav-link d-inline mx-2" href="index.html">Home</a>
-      <a class="nav-link d-inline mx-2 active" href="about.html">About</a>
-      <a class="nav-link d-inline mx-2" href="contact.html">Contact</a>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-dark px-4">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold text-primary" href="index.html">⚡ Apex Digital</a>
+
+```
+<div class="ms-auto">
+  <a class="nav-link d-inline text-white" href="index.html">Home</a>
+  <a class="nav-link d-inline text-white" href="about.html">About</a>
+  <a class="nav-link d-inline text-white" href="contact.html">Contact</a>
+</div>
+```
+
   </div>
 </nav>
 
-<div class="container">
+<!-- HERO -->
 
-  <!-- HERO -->
+<section class="hero-simple text-center">
+  <h1>About Us</h1>
+  <p>Learn more about Apex Digital and what we do.</p>
+</section>
 
-  <section class="hero">
-    <div class="hero-content text-center">
-      <h1 class="display-4 fw-bold">
-        About <span>Us</span>
-      </h1>
-      <p class="lead">
-        Learn more about Apex Digital and what we do.
-      </p>
-    </div>
-  </section>
+<!-- MISSION (FIXED SIDE BY SIDE) -->
 
-  <!-- ABOUT CONTENT -->
-
-  <section class="section-padding">
-    <div class="row align-items-center g-5">
-
- <section class="section-padding">
+<section class="container section-padding">
   <div class="row align-items-center g-5">
 
-<!-- TEXT LEFT -->
+```
+<!-- TEXT -->
 <div class="col-lg-6">
   <h2>Our Mission</h2>
   <p>
-    At Apex Digital, we focus on creating clean, modern, and effective digital solutions. 
+    At Apex Digital, we focus on creating clean, modern, and effective digital solutions.
     Our goal is to help businesses grow with simple, powerful, and user-friendly designs.
   </p>
   <p>
-    We work closely with our clients to deliver results that are both visually appealing 
+    We work closely with our clients to deliver results that are both visually appealing
     and technically strong.
   </p>
 </div>
 
-<!-- IMAGE RIGHT -->
+<!-- IMAGE -->
 <div class="col-lg-6">
-  <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786"
-       class="img-fluid rounded"
-       alt="Office team">
-
-  <section class="section-padding text-center">
-
-  <h2 class="mb-2">Meet Our Team</h2>
-  <p class="mb-5 text-muted">The people behind Apex Digital</p>
-
-  <div class="row justify-content-center g-4">
-
-<div class="col-md-4 col-lg-3">
-  <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a"
-       class="rounded-circle mb-3"
-       style="width:150px;height:150px;object-fit:cover;">
-  <h5>John Doe</h5>
-  <p class="text-muted">Lead Designer</p>
+  <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7"
+       class="img-fluid rounded shadow"
+       alt="Office">
 </div>
+```
 
-<div class="col-md-4 col-lg-3">
-  <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2"
-       class="rounded-circle mb-3"
-       style="width:150px;height:150px;object-fit:cover;">
-  <h5>Jane Smith</h5>
-  <p class="text-muted">Lead Developer</p>
-</div>
+  </div>
+</section>
 
-<div class="col-md-4 col-lg-3">
-  <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7"
-       class="rounded-circle mb-3"
-       style="width:150px;height:150px;object-fit:cover;">
-  <h5>Michael Johnson</h5>
-  <p class="text-muted">Project Manager</p>
+<!-- TEAM (CENTERED FULL WIDTH) -->
+
+<section class="section-padding text-center">
+
+  <h2>Meet Our Team</h2>
+  <p class="text-muted mb-5">The people behind Apex Digital</p>
+
+  <div class="container">
+    <div class="row justify-content-center g-4">
+
+```
+  <div class="col-md-4 col-lg-3">
+    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a"
+         class="rounded-circle mb-3"
+         style="width:150px;height:150px;object-fit:cover;">
+    <h5>John Doe</h5>
+    <p class="text-muted">Lead Designer</p>
+  </div>
+
+  <div class="col-md-4 col-lg-3">
+    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2"
+         class="rounded-circle mb-3"
+         style="width:150px;height:150px;object-fit:cover;">
+    <h5>Jane Smith</h5>
+    <p class="text-muted">Lead Developer</p>
+  </div>
+
+  <div class="col-md-4 col-lg-3">
+    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7"
+         class="rounded-circle mb-3"
+         style="width:150px;height:150px;object-fit:cover;">
+    <h5>Michael Johnson</h5>
+    <p class="text-muted">Project Manager</p>
+  </div>
+
 </div>
+```
 
   </div>
 
 </section>
 
-<!-- FOOTER -->
+<!-- FOOTER (FULL WIDTH FIXED) -->
 
-<footer>
-  <p>© 2026 Apex Digital</p>
+<footer class="text-center py-4">
+  <p class="mb-0">© 2026 Apex Digital</p>
 </footer>
 
 </body>
 </html>
-

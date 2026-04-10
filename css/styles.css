@@ -146,3 +146,16 @@ h2 {
 .text-muted {
   color: #9ca3af !important;
 }
+
+/* HERO TITLES (About + Contact SAME STYLE) */
+.hero-simple h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.hero-simple p {
+  font-size: 18px;
+  color: #6b7280;
+}

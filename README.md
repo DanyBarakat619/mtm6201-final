@@ -1,47 +1,70 @@
-# mtm6201-final
 # Apex Digital Website
 
-## Overview
+## Project Overview
 
-This project is a responsive 3-page website built using the Bootstrap framework. The website represents a modern digital solutions company called Apex Digital. It includes a Home page, About page, and Contact page.
+This project is a responsive website created using HTML, CSS, and the Bootstrap framework. It includes three pages: Home, About, and Contact. The goal of this project was to design a modern and clean business website based on mockups and wireframes created in Figma.
 
 ## Process
 
-I started by creating a basic layout using Bootstrap and then customized the design using CSS variables. I structured the website into three separate HTML pages and ensured navigation between them worked properly. I used a clean and minimal design style to make the site easy to use and visually appealing.
+I started by designing the layout in Figma and planning the structure of each page. After that, I built the HTML structure for all three pages and used Bootstrap’s grid system to create a responsive layout. I then added custom CSS to style the website and improve the visual design.
 
 ## Challenges
 
-One challenge was converting a single-page design into a multi-page website. I had to remove JavaScript that controlled page switching and instead create separate HTML files. Another challenge was organizing the CSS properly and linking it to all pages.
+One challenge I faced was making all three pages look consistent, especially the navigation bar and spacing. Another issue was getting the hero section text and background image to display properly. I also had some problems with CSS not updating due to caching.
 
 ## Solutions
 
-To solve these issues, I separated the content into individual pages (index.html, about.html, contact.html) and updated the navigation links. I also moved all styling into an external CSS file to keep the code clean and organized.
+To fix these issues, I standardized the navbar across all pages and used Bootstrap classes like flex and spacing utilities. I corrected my CSS file linking and used hard refresh to fix caching problems. I also adjusted text colors and background overlays to improve visibility.
 
 ## What I Learned
 
-From this project, I learned how to:
+I learned how to use Bootstrap more effectively, especially for layout and responsiveness. I also improved my understanding of CSS variables and how to maintain consistent styling across multiple pages. Additionally, I learned how to debug issues like caching and incorrect file paths.
 
-* Use Bootstrap to create responsive layouts
-* Organize a website into multiple pages
-* Use CSS variables for consistent styling
-* Improve accessibility using semantic HTML
-* Structure files properly for a web project
+## Features
+
+* Responsive design using Bootstrap
+* Three pages (Home, About, Contact)
+* Navigation bar across all pages
+* Hero section with background image
+* Services section
+* Team section
+* Contact form with map
+* Basic animations using Animate.css
 
 ## Technologies Used
 
-* Bootstrap 5
 * HTML5
 * CSS3
-* Google Fonts (Roboto)
+* Bootstrap 5
 * Animate.css
-
-## Assets & Resources
-
-* Images from Unsplash (royalty-free)
-* Bootstrap CDN
 * Google Fonts
-* Animate.css library
+
+## Assets and Resources
+
+The following external resources were used in this project:
+
+### Images
+
+* Office workspace image (Home/About page) — Source: https://unsplash.com/
+* Team member photos — Source: https://unsplash.com/
+* Background hero image — Source: https://unsplash.com/
+
+### Fonts
+
+* Roboto — https://fonts.google.com/specimen/Roboto
+
+### CSS / Libraries
+
+* Bootstrap 5 — https://getbootstrap.com/
+* Animate.css — https://animate.style/
+
+All images used are free for commercial use and were obtained from publicly available sources.
+
 
 ## Live Website
 
-https://danybarakat619.github.io/mtm6201-final
+https://your-username.github.io/mtm6201-final
+
+## Notes
+
+All content and images used in this project are either original or sourced from free stock websites and properly credited.

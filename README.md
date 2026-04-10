@@ -16,6 +16,14 @@ One challenge I faced was making all three pages look consistent, especially the
 
 To fix these issues, I standardized the navbar across all pages and used Bootstrap classes like flex and spacing utilities. I corrected my CSS file linking and used hard refresh to fix caching problems. I also adjusted text colors and background overlays to improve visibility.
 
+Figma Design
+
+You can view the original wireframes and design mockups for this project here:
+
+https://www.figma.com/design/CbHRJdmD6DngSs1OWaFNIL/lo-fi-wireframes?node-id=0-1&t=3N6kOoZa1cdizkyp-1
+
+These designs were used as the foundation for layout, structure, and visual styling of the website.
+
 ## What I Learned
 
 I learned how to use Bootstrap more effectively, especially for layout and responsiveness. I also improved my understanding of CSS variables and how to maintain consistent styling across multiple pages. Additionally, I learned how to debug issues like caching and incorrect file paths.

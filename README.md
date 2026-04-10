@@ -45,9 +45,15 @@ The following external resources were used in this project:
 
 ### Images
 
-* Office workspace image (Home/About page) — Source: https://unsplash.com/
-* Team member photos — Source: https://unsplash.com/
-* Background hero image — Source: https://unsplash.com/
+* Hero background image (computer desk setup) — https://unsplash.com/photos/3fPXt37X6UQ
+* Team collaboration image (people working on laptops) — https://unsplash.com/photos/SYTO3xs06fU
+* Workspace setup image (iMac on desk) — https://unsplash.com/photos/8manzosRGPE
+
+### Team Member Images
+
+* John Doe — https://unsplash.com/photos/mEZ3PoFGs_k
+* Jane Smith — https://unsplash.com/photos/FVh_yqLR9eA
+* Michael Johnson — https://unsplash.com/photos/IF9TK5Uy-KI
 
 ### Fonts
 
@@ -58,12 +64,13 @@ The following external resources were used in this project:
 * Bootstrap 5 — https://getbootstrap.com/
 * Animate.css — https://animate.style/
 
-All images used are free for commercial use and were obtained from publicly available sources.
+All images used are free for commercial use and sourced from Unsplash.
+
 
 
 ## Live Website
 
-https://your-username.github.io/mtm6201-final
+https://danybarakat619.github.io/mtm6201-final
 
 ## Notes
 
